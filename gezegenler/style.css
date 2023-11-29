@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    color: white;
+}
+body{
+    background-image: url(./img/galaxy.gif);
+}
+.input-group{
+    display: flex;
+    justify-content: center;
+}
+.input-group input{
+    border: 2px solid lightgray;
+    border-right: none;
+    height: 30px;
+    border-radius: 10px 0px 0px 10px;
+    
+}
+.input-group select{
+    border: 2px solid lightgray;
+    border-right: none;
+    border-left: none;
+    background-color: hotpink;
+}
+.input-group button{
+    border: 2px solid lightgray;
+    border-left: none;
+    background-color: lightblue;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.wrapper{
+    margin: auto;
+    margin-top: 20px;
+    width: 60%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.199);
+}
+.wrapper .active{
+    width: 300px;
+}
+.wrapper p{
+    font-size: 25px;
+}
